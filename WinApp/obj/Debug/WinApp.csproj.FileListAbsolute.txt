@@ -1,0 +1,10 @@
+C:\Users\olivi\Documents\DEV\WinApp\bin\Debug\WinApp.exe.config
+C:\Users\olivi\Documents\DEV\WinApp\bin\Debug\WinApp.exe
+C:\Users\olivi\Documents\DEV\WinApp\bin\Debug\WinApp.pdb
+C:\Users\olivi\Documents\DEV\WinApp\obj\Debug\WinApp.csproj.AssemblyReference.cache
+C:\Users\olivi\Documents\DEV\WinApp\obj\Debug\WinApp.Form1.resources
+C:\Users\olivi\Documents\DEV\WinApp\obj\Debug\WinApp.Properties.Resources.resources
+C:\Users\olivi\Documents\DEV\WinApp\obj\Debug\WinApp.csproj.GenerateResource.cache
+C:\Users\olivi\Documents\DEV\WinApp\obj\Debug\WinApp.csproj.CoreCompileInputs.cache
+C:\Users\olivi\Documents\DEV\WinApp\obj\Debug\WinApp.exe
+C:\Users\olivi\Documents\DEV\WinApp\obj\Debug\WinApp.pdb
