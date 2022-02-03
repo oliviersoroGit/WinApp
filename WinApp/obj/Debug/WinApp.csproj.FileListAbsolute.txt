@@ -8,3 +8,4 @@ C:\Users\olivi\Documents\DEV\WinApp\obj\Debug\WinApp.csproj.GenerateResource.cac
 C:\Users\olivi\Documents\DEV\WinApp\obj\Debug\WinApp.csproj.CoreCompileInputs.cache
 C:\Users\olivi\Documents\DEV\WinApp\obj\Debug\WinApp.exe
 C:\Users\olivi\Documents\DEV\WinApp\obj\Debug\WinApp.pdb
+C:\Users\olivi\Documents\DEV\WinApp\bin\Debug\Dotfuscator1.xml
