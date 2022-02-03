@@ -31,3 +31,10 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+
+- task: DownloadGitHubRelease@0
+  inputs:
+    connection: 'GitHub connection 1'
+    userRepository: 'oliviersoroGit/WinApp'
+    defaultVersionType: 'latest'
+    downloadPath: '$(System.ArtifactsDirectory)'
