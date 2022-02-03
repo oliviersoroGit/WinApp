@@ -2,8 +2,8 @@
 <!DOCTYPE dotfuscatorMap SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscatorMap_v1.2.dtd">
 <dotfuscatorMap version="1.1">
     <header>
-        <timestamp>2022-02-02T19:39:40</timestamp>
-        <product version="6.3.0+8b29d6f4a2" user=" " serial="">Dotfuscator Community</product>
+        <timestamp>2022-02-03T11:37:45</timestamp>
+        <product version="6.3.0+8b29d6f4a2" user="olivier soro" serial="382913">Dotfuscator Community</product>
     </header>
     <mapping>
         <module>

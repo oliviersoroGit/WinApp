@@ -8,7 +8,7 @@
   <input>
     <loadpaths />
     <asmlist>
-      <inputassembly refid="8a0ee8ec-0112-4109-9b7f-99c02af3923b">
+      <inputassembly refid="ad94f4db-84a2-4ced-a107-cc6b47196740">
         <option>honoroas</option>
         <option>stripoa</option>
         <option>library</option>
