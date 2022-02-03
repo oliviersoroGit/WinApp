@@ -31,14 +31,8 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
-
-- task: GitHubRelease@1
+- task: PublishBuildArtifacts@1
   inputs:
-    gitHubConnection: 'GitHub connection 1'
-    repositoryName: 'oliviersoroGit/WinApp'
-    action: 'create'
-    target: '$(Build.SourceVersion)'
-    tagSource: 'gitTag'
-    tag: '$(Build.SourceVersion)'
-    changeLogCompareToRelease: 'lastFullRelease'
-    changeLogType: 'commitBased'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
