@@ -32,9 +32,13 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: DownloadGitHubRelease@0
+- task: GitHubRelease@1
   inputs:
-    connection: 'GitHub connection 1'
-    userRepository: 'oliviersoroGit/WinApp'
-    defaultVersionType: 'latest'
-    downloadPath: '$(System.ArtifactsDirectory)'
+    gitHubConnection: 'GitHub connection 1'
+    repositoryName: 'oliviersoroGit/WinApp'
+    action: 'create'
+    target: '$(Build.SourceVersion)'
+    tagSource: 'gitTag'
+    tag: '$(Build.SourceVersion)'
+    changeLogCompareToRelease: 'lastFullRelease'
+    changeLogType: 'commitBased'
